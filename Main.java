@@ -2,12 +2,16 @@
 public class Main {
     public static void main(String[] args) {
         
+        int x, y, z;
+        x = 3;
+        y = 4;
+        z = 10;
+
         
         String name = "Ming";
-        int x;
-        x = 22;
-
-        System.out.println(x);
+        
+       
+        System.out.println(x+y+z);
 
         System.out.println(name);
 
