@@ -8,6 +8,8 @@ public class Main {
         z = 10;
 
         
+
+        System.out.println(args.length);
         String name = "Ming";
         
        
@@ -18,6 +20,8 @@ public class Main {
         System.out.println("Hello World");
         System.out.println(33);
         System.out.println(3 * 4);
+        double myNum = 19.99d;
+System.out.println(myNum);
 
     }
 
