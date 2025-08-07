@@ -16,12 +16,22 @@ public class loops {
         //     System.out.println(i);
         // }
 
-        for (int i = 0; i < 2; i++) {
-            System.out.println("i'm outer loop" + " " + i);
-            for (int j = 0; j <= 3; j++) {
-            System.out.println("i'm inner loop " + " " + j + " " + "with inner loop" + " " + i);
-        }
-        
+        //nested 
+        // for (int i = 0; i < 2; i++) {
+        //     System.out.println("i'm outer loop" + " " + i);
+        //     for (int j = 0; j <= 3; j++) {
+        //     System.out.println("i'm inner loop " + " " + j + " " + "with inner loop" + " " + i);
+        // }
+
+        // }
+
+
+        for (int i = 0; i <=10; i++) {
+
+            if (i == 2) {
+                continue;
+            }
+            System.out.println(i);
         }
     }
 
