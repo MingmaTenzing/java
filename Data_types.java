@@ -7,6 +7,9 @@ public class Data_types {
         
         double a =  2.33;
         String name = "mingma";
+
+        
+
     
         System.out.println(a + name);
 
