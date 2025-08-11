@@ -1,7 +1,7 @@
 public class method_overloading {
 
-    static int addtwonums(int x , int y) {
-
+    
+    static int addtwonums(int x , int y) {          
         return x + y;
 
     }
