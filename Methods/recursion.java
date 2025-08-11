@@ -9,10 +9,12 @@ public class recursion {
         if (k > 0) {
             return k + sum(k - 1);
 
-        }
-        else {
+        } else {
             return 0;
         }
     }
+
+    //this is recursoin 
+    
     
 }
