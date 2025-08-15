@@ -4,12 +4,13 @@ public class car {
     String name;
     String trim;
 
-    public car(int model_year, String car_name, String car_trim) {
+    public car(int year, String car_name, String car_trim) {
 
-        year = model_year;
+        this.year = year;
         name = car_name;
 
         trim = car_trim;
+
 
     }
 
