@@ -1,0 +1,22 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package calculatorpack;
+
+import java.util.Scanner;
+
+public class caclulatorpackage {
+   public caclulatorpackage() {
+   }
+
+   public double sum() {
+      Scanner var1 = new Scanner(System.in);
+      System.out.println("Enter the values");
+      Scanner var2 = new Scanner(System.in);
+      System.out.println("Enter the values");
+      double var3 = var1.nextDouble() + var2.nextDouble();
+      return var3;
+   }
+
+   public static void main(String[] var0) {
+      System.out.println("hi");
+   }
+}

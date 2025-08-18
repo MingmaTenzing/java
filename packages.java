@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import mypackage.mypackage;
-public class pacakges {
+public class packages {
 
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
