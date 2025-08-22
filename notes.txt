@@ -1,4 +1,7 @@
 1. Every line code in Java should be inside a class
 2. Java is case sensitive
 3. every program must contain a main() method.
+4. static means you it belongs to the class it self and call be called without creating an object
+whereas if you use public then you have to create an object to use the method. 
+
 
