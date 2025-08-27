@@ -9,6 +9,8 @@ interface Animal {
 
     public void sleep();
 
+    
+
 }
 
 class Dog implements Animal {
