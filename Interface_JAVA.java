@@ -1,29 +1,39 @@
+//interface revised
 
+
+//interface is another way of having abstraction in java
 
 interface Animal {
-
+//its an abstract class that groups the related method with empty bodies
     public void animalSound();
 
-    public void run();
+    public void sleep();
+
+}
+
+class Dog implements Animal {
+
+
+    @Override
+    public void animalSound() {
+        System.out.println("dog is saying bhow bhow");
+    }
+ @Override
+    public void sleep() {
+        System.out.println("sleeping dog ");
+    }
 
 }
 
 
-class Pig implements Animal {
-    
-       
-        public void animalSound() {
-            System.out.println("hi this is animal sound");
-        }
-        public void run() {
-            System.out.println("hi this is animal sound");
-        }
-    }
-
-
-
 public class Interface_JAVA {
-    public static void main(String[] args) {
+    
 
+    public static void main(String[] args) {
+        Dog hercules = new Dog();
+
+        hercules.animalSound();
+        hercules.sleep();
+       
     }
 }
