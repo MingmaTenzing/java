@@ -9,6 +9,11 @@ class Pig extends Animal {
     public void animalSound() {
         System.out.println("this is pig sound");
     }
+
+    public void sleep() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'sleep'");
+    }
 }
 
 class Dog extends Animal {
