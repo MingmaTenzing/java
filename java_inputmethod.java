@@ -11,7 +11,8 @@ class java_inputmethod {
 
         String name = myScanner.nextLine();
 
-         System.out.println(name)
+        System.out.println(name);
+ myScanner.close();
     }
 }
 
