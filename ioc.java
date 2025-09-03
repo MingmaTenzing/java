@@ -9,10 +9,19 @@ class MyCar {
 class Driver {
 
     private final MyCar car;
+    String driverName;
 
-    public Driver(MyCar car) {
+    public Driver(MyCar inputcar) {
 
-        this.car = car;
+        this.car = inputcar;
+        this.driverName = "Mingma";
+
+    }
+
+    public void starttrip() {
+
+        car.drive();
+
 
     }
 }
@@ -25,6 +34,16 @@ public class ioc {
 
         newcar.drive();
 
+        Driver myDriver = new Driver(newcar);
+        myDriver.starttrip();
+        System.out.println(myDriver.driverName);
+        
+        myDriver.driverName = "zing";
+        System.out.println(myDriver.driverName);
+
+
+
+    
         
 
     
