@@ -1,47 +1,37 @@
-<<<<<<< HEAD
-// inteface is another way of doing abstraction
+interface Payment {
+    public  void processPayment();
 
-//
-=======
-//interface revised
+    public void  userName();
 
-
-//interface is another way of having abstraction in java
-
-interface Animal {
-//its an abstract class that groups the related method with empty bodies
-    public void animalSound();
-
-    public void sleep();
-
-    
-
+    public void  userId();
 }
 
-class Dog implements Animal {
 
+class GooglePayment implements Payment {
+@Override
+public void processPayment() {
+    System.out.println("processing payment");
 
+}
     @Override
-    public void animalSound() {
-        System.out.println("dog is saying bhow bhow");
+    public void  userName() {
+        System.out.println("mingma is user");
+        
     }
- @Override
-    public void sleep() {
-        System.out.println("sleeping dog ");
+    @Override
+    public void  userId() {
+        System.out.println("mingma is userId is 98707");
+        
     }
+
 
 }
-
 
 public class Interface_JAVA {
-    
-
     public static void main(String[] args) {
-        Dog hercules = new Dog();
-
-        hercules.animalSound();
-        hercules.sleep();
-       
+        GooglePayment mypayment = new GooglePayment();
+        mypayment.processPayment();
+        mypayment.userName();
+        mypayment.userId();
     }
 }
->>>>>>> 3906cea08693ba348e19bb2b3d7596a45977fa22

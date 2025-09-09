@@ -7,6 +7,8 @@ public class contentcheck {
         Content newContent = new Content("ming", 34);
         System.out.println(newContent.age());
         System.out.println(newContent.name());
+
+    
     }
 
     
