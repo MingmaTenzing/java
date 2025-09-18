@@ -1,15 +1,36 @@
-public class test 
- {
-     String Name = "ming";
+abstract class Animal {
+    
+
+
+    public abstract void animalSound();
+
+    public void sleep() {
+        System.out.println("sleeping animal");
+ 
+ 
+    }
+}
+
+
+class Pig extends Animal {
+@Override
+    public void animalSound() {
+System.out.println(" we we");
+    }
+}
+
+
+public class test extends Pig {
+
 
     public static void main(String[] args) {
         
-        test mytest = new test();
-        int age = 10;
-        System.out.println(mytest.Name);
+        test myTest = new test();
 
-        System.out.println(age);
+        
+        myTest.animalSound();
 
+    
 
     }
 }
